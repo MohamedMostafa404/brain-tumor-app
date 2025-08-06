@@ -8,8 +8,8 @@ A Streamlit web app for detecting and segmenting brain tumors from MRI scans usi
 
 | Notebook | Description |
 |----------|-------------|
-| `1-Classification-Training.ipynb` | Trains a ResNet-based model to classify MRI scans as Tumor or No Tumor |
-| `2-Segmentation-Training.ipynb`   | Trains a U-Net model to perform tumor segmentation on MRI scans |
+| `1-brain tumor detection.ipynb` | Trains a ResNet-based model to classify MRI scans as Tumor or No Tumor |
+| `2-Segmentation.ipynb`   | Trains a U-Net model to perform tumor segmentation on MRI scans |
 
 ---
 
@@ -22,87 +22,35 @@ A Streamlit web app for detecting and segmenting brain tumors from MRI scans usi
 
 ---
 
-## 🛠️ Technologies Used
+🛠️ Tech Stack:
 
-- Python 3
-- TensorFlow & Keras
-- Streamlit
-- OpenCV
-- NumPy, Matplotlib
+TensorFlow & Keras → Model building & training
 
----
+Transfer Learning → ResNet50 for classification
 
-## 📁 Folder Structure
+U-Net → Medical image segmentation
 
-brain_tumor_app/
+Streamlit → Frontend dashboard
 
-├── app.py                          # Streamlit app combining classification & segmentation
+OpenCV & Matplotlib → Visualization
 
-├── Model_3.h5                      # Trained classification model (ResNet)
-
-├── Tumor_Segmentation2.h5         # Trained segmentation model (U-Net)
-
-├── 1-Classification-Training.ipynb # Notebook for training the classifier
-
-├── 2-Segmentation-Training.ipynb   # Notebook for training the segmenter
-
-├── requirements.txt               # Python dependencies
-
-└── README.md                      # Project overview and usage instructions
+scikit-learn → Preprocessing & evaluation
 
 ---
 
-## 📦 Requirements
-The requirements.txt file includes:
+📊 Training Datasets:
 
-txt
+Classification: https://lnkd.in/dTMUfgJJ
 
-Copy
-
-Edit
-
-streamlit
-
-tensorflow
-
-numpy
-
-opencv-python
-
-Pillow
-
-Make sure you have Python 3.7+ installed.
-
-
-----------
-
-## 🚀 How to Run the App
-
-1. Install the requirements:
-```bash
-pip install -r requirements.txt
-
-
----------------
-
-
-## 🚀 Run the Streamlit App
-
-To run the app locally, follow these steps:
-
-1. **Install the required packages** (preferably in a virtual environment):
-
-```bash
-pip install -r requirements.txt
-
-------------------
-
-
-## 📸 Demo (Optional – Add Screenshot or GIF)
-You can upload a screenshot or gif of the app here.
+Segmentation: https://lnkd.in/d648sK3p
 
 ---
+🌍 Impact:
+This project showcases how AI bridges the gap between technology and healthcare, helping build smarter, faster, and more accessible diagnostic tools for real-world use.
 
+Let’s make AI work for saving lives! ❤️
+
+---
 
 ##👨‍💻 Author
 Developed by [Mohamed Mostafa]
