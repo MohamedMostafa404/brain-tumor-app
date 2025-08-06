@@ -52,6 +52,7 @@ Let’s make AI work for saving lives! ❤️
 
 ---
 
-##👨‍💻 Author
+👨‍💻 Author
 Developed by [Mohamed Mostafa]
+
 Feel free to contribute or suggest improvements!
